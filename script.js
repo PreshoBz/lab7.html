@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
             locationElement.innerText = `Your location is: ${data.city}, ${data.region}, ${data.country_name}`;
 
             // Third API call to get weather based on the public IP address
-            return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${data.city}&appid=YOUR_OPENWEATHERMAP_API_KEY`);
+            return fetch(`https://api.openweathermap.org/data/2.5/weather?q=${data.city}&appid=210c4532cbffc7077b27a551a882f4bc`);
         })
         .then(response => response.json())
         .then(data => {

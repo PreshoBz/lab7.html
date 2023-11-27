@@ -1,11 +1,25 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
     text-align: center;
-    margin: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+h1 {
+    color: #00ff00;
 }
 
 div {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
+    margin: 10px 0;
 }
